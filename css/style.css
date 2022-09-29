@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 nav{
     background-color: rgba(0,0,0, 1.0);
     padding: 10px 60px;
@@ -12,10 +13,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     border-bottom: solid 2px rgba(105,105,105);
-
-
-
 }
+
 nav .logo a{
     font-family: arial;
     text-decoration: none;
