@@ -13,7 +13,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2.2px dotted #33FFFF;
+    border-bottom: 1px dotted #33FFFF;
 }
 
 
@@ -50,7 +50,6 @@ nav .imagem-logo{
     margin-top: 27px;
 }
 
-
 nav ul{
     display: flex;
     align-items: center;
@@ -81,85 +80,78 @@ nav li a:hover{
 }
 
 
-.banner{
-    height: 100vh;
-    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url(https://i.imgur.com/OOrjrTR.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+/*   footer  */
+#footer{
+    padding: 50px 0 30px;
+}
+
+
+hr{
+    width: 100%;
+    border: none;
+    border-top: 1px solid #33FFFF;
+}
+
+
+.footer-row{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     text-align: center;
 }
 
 
-.texto .titulo{
-    color: #fff;
-    font-size: 60px;
-    font-weight: 600;
+.footer-left-col{
+    flex-basis: 50%;
+    margin-top: 60px;
 }
 
 
-.texto .sub_titulo{
-    color: #fff;
-    font-size: 58px;
-    font-weight: 600;
+.footer-right-col{
+    flex-basis: 35%;
 }
 
 
-.texto .botoes{
-    margin-top: 30px;
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 
-.texto .botoes button{
-    height: 55px;
-    width: 170px;
-    border-radius: 5px;
-    border: 0;
-    margin: 0 10px;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 0 10px;
-    cursor: pointer;
-    outline: none;
-    transition: 0.3s;
+.link-title h4{
+    color: #33FFFF;
+    margin-bottom: 20px;
 }
 
 
-.texto .botoes button.n-overlay{
-    color: white;
-    background: none;
-    border: 2px solid white;
-
+.link-title small{
+    color: #777;
+    font-size: 13px;
 }
 
 
-.texto .botoes button.n-overlay:hover{
-    color: black;
-    background-color: white;
-
+.footer-info{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 
-.texto .botoes button.overlay{
-    background: white;
-    color: black;
-    animation: vibrar 0.8s ease-in-out infinite both;
-    margin: 2rem;
-
+.copyright-text, .footer-logo{
+    flex-basis: 40%;
 }
 
 
-@keyframes vibrar {
-    0%{
-        transform: scale(1);
-    }
-    50%{
-        transform: scale(1.1);
-    }
-    100%{
-        transform: scale(1);
-    }
+.footer-logo img{
+    width: 100px;
+}
+
+
+.footer-logo button{
+    padding: 12px 38px;
+    margin-top: 20px;
+    font-size: 10px;
 }
