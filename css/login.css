@@ -5,6 +5,18 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.inicio {
+    padding: 10px;
+    background-color: #4aa4ee;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    position: relative;
+    left: 350px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
 
 .container-login {
     position: relative;
@@ -88,6 +100,9 @@
     margin-bottom: 20px;
 }
 
+.content-box .form-box .input-boxx {
+    margin-bottom: 20px;
+}
 
 .content-box .form-box .input-box input {
     width: 100%;
@@ -101,6 +116,17 @@
     border-radius: 5px;
 }
 
+.content-box .form-box .input-boxx input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-weight: 400;
+    border: none;
+    font-size: 17px;
+    color: #32324f;
+    background-color: #ecf2f7;
+    border-radius: 5px;
+}
 
 .content-box .form-box .input-box span {
     font-size: 16px;
@@ -110,11 +136,21 @@
     font-weight: 400;
 }
 
+.content-box .form-box .input-boxx span {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #32324f;
+    font-weight: 400;
+}
 
 .content-box .form-box .input-box input::placeholder {
     color: #a9adb6;
 }
 
+.content-box .form-box .input-boxx input::placeholder {
+    color: #a9adb6;
+}
 
 .content-box .form-box .input-box input[type=submit] {
     background: #4aa4ee;
@@ -127,6 +163,16 @@
     transition: 0.3s;
 }
 
+.content-box .form-box .input-boxx input[type=submit] {
+    background: #00a400;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.3s;
+}
 
 .content-box .form-box .input-box input[type=submit]:hover {
     background: #3286ca;

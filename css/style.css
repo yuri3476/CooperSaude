@@ -13,7 +13,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2.2px dotted #33FFFF;
+    border-bottom: 1px dotted #33FFFF;
 }
 
 
